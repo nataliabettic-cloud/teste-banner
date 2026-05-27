@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* NAV */
+
+nav{
+    width: 100%;
+    height: 70px;
+    background-color: #d95a4f;
+    display: flex;
+}
+
+.logo{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+}
+
+.logo h3{
+    color: white;
+}
+
+.menu{
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+/* BANNER */
+
+.banner{
+    height: 450px;
+
+    background-image: url("/valentin-lacoste-C9YxgJoXcWE-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner h1{
+    color: white;
+    font-size: 60px;
+}
+
+/* SECTION 2 */
+
+.conteudo{
+    padding: 60px;
+    text-align: center;
+}
+
+.conteudo h2{
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+
+.conteudo p{
+    line-height: 1.8;
+}
